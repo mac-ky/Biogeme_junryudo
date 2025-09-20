@@ -1,0 +1,88 @@
+# File mode_MNL_scaled.yaml has automatically been generated on 2025-09-19 11:55:17.339453
+# biogeme 3.3.1 [2025-09-19]
+
+beta_names:
+- ASC_car
+- B_time
+- B_cost
+- ASC_rail
+beta_values:
+- 2.46520686356558
+- -0.15509366774385386
+- -0.01473261969528295
+- 0.6655360065406377
+bhhh:
+- - 294508.5653339736
+  - 1589000.2644410192
+  - -3212661.7206272352
+  - -258111.29399467137
+- - 1589000.2644410192
+  - 48722335.07298454
+  - -46930293.94579728
+  - -2160692.3266358622
+- - -3212661.7206272352
+  - -46930293.94579728
+  - 203535960.73251998
+  - 4529214.540331707
+- - -258111.29399467137
+  - -2160692.3266358622
+  - 4529214.540331707
+  - 271309.76854003844
+bootstrap: []
+bootstrap_time: null
+convergence: true
+data_name: junryudou
+draws_processing_time: '0.0'
+final_log_likelihood: -1111393.6915385197
+gradient:
+- 1.186045033069604
+- -16.747145868488587
+- 40.49201087660913
+- 0.2414589750678715
+hessian:
+- - -308407.18087416864
+  - -1440453.3133694022
+  - 3276391.586724831
+  - 269544.72088417877
+- - -1440453.3133694022
+  - -30957496.285798784
+  - 38911932.684096195
+  - 1843702.877475608
+- - 3276391.5867248303
+  - 38911932.68409619
+  - -154197048.52399492
+  - -4338224.265149311
+- - 269544.72088417877
+  - 1843702.877475608
+  - -4338224.265149311
+  - -280034.50845293637
+initial_log_likelihood: -8856768.362174116
+lower_bounds:
+- null
+- null
+- null
+- null
+model_name: mode_MNL_scaled
+monte_carlo: false
+null_log_likelihood: -2435276.28249398
+number_of_draws: 10000
+number_of_excluded_data: 0
+number_of_observations: 2216684
+optimization_messages:
+  Algorithm: Newton with trust region for simple bound constraints
+  Cause of termination: Relative gradient = 4.6e-06 <= 6.1e-06
+  Number of function evaluations: 20
+  Number of gradient evaluations: 13
+  Number of hessian evaluations: 6
+  Number of iterations: '7'
+  Optimization time: '5.533536'
+  Proportion of Hessian calculation: 6/6 = 100.0%
+  Relative gradient: 4.5718719538318546e-06
+sample_size: 2216684
+types_of_draws: null
+upper_bounds:
+- null
+- null
+- null
+- null
+user_notes: null

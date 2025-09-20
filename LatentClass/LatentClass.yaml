@@ -1,0 +1,111 @@
+# File LatentClass.yaml has automatically been generated on 2025-09-19 19:42:37.703811
+# biogeme 3.3.1 [2025-09-19]
+
+beta_names:
+- prob_class1
+- ASC_car
+- B_cost
+- ASC_rail
+- B_time
+beta_values:
+- 0.1434776047580577
+- 2.6462112337457238
+- -0.017211521069246435
+- 0.6669236965138875
+- -0.2217292077575637
+bhhh:
+- - 1984659.8481959363
+  - 108315.96919598714
+  - -5771540.362220144
+  - -227942.13062328892
+  - 3076773.8196607423
+- - 108315.96919598714
+  - 261503.1760457231
+  - -2310028.8922160175
+  - -219197.82810575378
+  - 904371.5313501318
+- - -5771540.362220144
+  - -2310028.8922160175
+  - 170594578.50372607
+  - 3428175.76102665
+  - -20671359.34268313
+- - -227942.13062328892
+  - -219197.82810575378
+  - 3428175.76102665
+  - 223364.0140839041
+  - -1030888.52593608
+- - 3076773.8196607423
+  - 904371.5313501318
+  - -20671359.34268313
+  - -1030888.52593608
+  - 10907727.445529256
+bootstrap: []
+bootstrap_time: null
+convergence: true
+data_name: junryudou
+draws_processing_time: '0.0'
+final_log_likelihood: -1080552.0898616163
+gradient:
+- 11.00274140377951
+- -0.3112266520947742
+- -4.2507893698784756
+- 0.11037906128240138
+- 7.151598630574881
+hessian:
+- - -1984659.848195936
+  - -105858.2819030715
+  - 5843269.562741665
+  - 229259.11487841472
+  - -3076782.169236505
+- - -105858.28190307158
+  - -261624.78086035163
+  - 2254757.7758448105
+  - 219372.90347816268
+  - -965829.5666363045
+- - 5843269.562741667
+  - 2254757.77584481
+  - -140594615.7192735
+  - -3290906.243561267
+  - 21008028.04823809
+- - 229259.11487841472
+  - 219372.90347816274
+  - -3290906.2435612665
+  - -223656.76987712635
+  - 1099094.1988619613
+- - -3076782.169236504
+  - -965829.5666363044
+  - 21008028.048238095
+  - 1099094.1988619613
+  - -12181295.560349014
+initial_log_likelihood: -2435276.2824939806
+lower_bounds:
+- 0
+- null
+- null
+- null
+- null
+model_name: LatentClass
+monte_carlo: false
+null_log_likelihood: -2435276.28249398
+number_of_draws: 10000
+number_of_excluded_data: 0
+number_of_observations: 2216684
+optimization_messages:
+  Algorithm: Newton with trust region for simple bound constraints
+  Cause of termination: Relative gradient = 2.9e-06 <= 6.1e-06
+  Number of function evaluations: 52
+  Number of gradient evaluations: 35
+  Number of hessian evaluations: 17
+  Number of iterations: '17'
+  Optimization time: '30.885664'
+  Proportion of Hessian calculation: 17/17 = 100.0%
+  Relative gradient: 2.936668287694605e-06
+sample_size: 2216684
+types_of_draws: null
+upper_bounds:
+- 1
+- null
+- null
+- null
+- null
+user_notes: null
